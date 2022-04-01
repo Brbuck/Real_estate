@@ -1,16 +1,48 @@
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 
-import { Container, Logo, LogInButton, MenuButton,  Navigation } from "./styles";
-import Logomark from '../../assets/logomark.png'
+import {
+  Container,
+  CloseMenu,
+  Logo,
+  LogInButton,
+  MenuButton,
+  Navigation,
+} from "./styles";
+import Logomark from "../../assets/logomark.png";
 
 function Header() {
+  const [menu, setMenu] = useState(false);
+
+  function togleMenu() {
+    setMenu(!menu);
+  }
   return (
     <Container>
       <Logo>
-        <Image src={Logomark} alt="Google Logo" width={35} height={30} />
+        <Link href="/">
+          <a>
+            <Image src={Logomark} alt="Google Logo" width={35} height={30} />
+          </a>
+        </Link>
       </Logo>
-      <Navigation>
+      <Navigation menu={menu} onClick={togleMenu}>
+        <li className="menu-responsive">
+          <CloseMenu onClick={togleMenu} />
+        </li>
+        <li className="menu-responsive">
+          <Link href="/">
+            <a>
+              <Image src={Logomark} alt="Google Logo" width={35} height={30} />
+            </a>
+          </Link>
+        </li>
+        <li className="menu-responsive">
+          <Link href="#">
+            <a>Log In</a>
+          </Link>
+        </li>
         <li>
           <Link href="#">
             <a>For sale</a>
@@ -28,7 +60,7 @@ function Header() {
         </li>
       </Navigation>
       <LogInButton>Log In</LogInButton>
-      <MenuButton>Menu</MenuButton>
+      <MenuButton onClick={togleMenu}>Menu</MenuButton>
     </Container>
   );
 }

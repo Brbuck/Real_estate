@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import Button from "../Button";
 
+import { AiOutlineClose } from "react-icons/ai";
+
 export const Container = styled.header`
   display: flex;
   align-items: center;
@@ -29,11 +31,39 @@ export const Navigation = styled.nav`
       &:hover {
         border-bottom: 2px solid #d478ff;
       }
+
+      @media (max-width: 720px) {
+        margin: 10px 0px;
+        padding: 10px 0px;
+      }
     }
+
+    @media (max-width: 720px) {
+      margin: 10px 0px;
+      padding: 8px 0px;
+    }
+    
   }
 
   @media (max-width: 720px) {
+    display: ${({menu}) => (menu ? 'flex' : 'none')};
+    width: 100%;
+    height: calc(100% - 60px);
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-color: #fff;
+  }
+
+  .menu-responsive {
     display: none;
+
+    @media (max-width: 720px) {
+      display: inline;
+    
+    }
   }
 `;
 
@@ -43,7 +73,6 @@ export const LogInButton = styled(Button)`
   max-width: 160px;
   background-color: #d478ff;
   color: #fff;
-
 
   @media (max-width: 720px) {
     display: none;
@@ -56,7 +85,6 @@ export const MenuButton = styled(Button)`
   background-color: #d478ff;
   color: #fff;
 
-
   @media (max-width: 720px) {
     display: block;
   }
@@ -64,4 +92,10 @@ export const MenuButton = styled(Button)`
   @media (max-width: 520px) {
     max-width: 100px;
   }
+`;
+
+export const CloseMenu = styled(AiOutlineClose)`
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
 `;
