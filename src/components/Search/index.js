@@ -31,7 +31,7 @@ function Search() {
             <option value="4">Apartment </option>
             <option value="16">Townhouses</option>
             <option value="21">Hotel Apartments</option>
-            <option value="12">Residential Floor</option>
+            <option value="3">Villas</option>
           </select>
         </WrapperSelect>
         <SearchInput type="text" placeholder="Enter a location" />

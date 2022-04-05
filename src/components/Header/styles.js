@@ -22,6 +22,7 @@ export const Navigation = styled.nav`
   align-items: center;
   justify-content: center;
 
+
   li {
     a {
       color: #888;
@@ -48,9 +49,10 @@ export const Navigation = styled.nav`
   @media (max-width: 720px) {
     display: ${({menu}) => (menu ? 'flex' : 'none')};
     width: 100%;
-    height: calc(100% - 60px);
+    height: 100vh;
     flex-direction: column;
     position: absolute;
+    z-index: 10;
     top: 0;
     left: 0;
 

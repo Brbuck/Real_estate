@@ -6,7 +6,7 @@ import Search from './Search'
 
 const Container = styled.div`
   width: 100%;
-  max-width: 1080px;
+  //max-width: 1080px;
   margin: 0px auto;
   padding: 20px;
 `;
