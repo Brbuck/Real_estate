@@ -36,7 +36,7 @@ export const Container = styled.div`
   object-position: center;
   background-size: cover;
   background-position: center;
-  padding: 0px 10px;
+  padding: 0px 6px;
   //margin-left: 10px;
   
 }
