@@ -1,11 +1,10 @@
-import { baseUrl, fetchApi } from "../services/api";
 import { Data } from "../services/Data";
-import Card from "../components/Card";
-import Slider from "../Components/Slider";
+import Swiper from '../components/Swiper'
+
 export default function teste() {
   return (
     <div>
-      <Slider
+      {/* <Slider
         Card={Data?.map((item) => (
           <Card
             key={item?.id}
@@ -16,7 +15,8 @@ export default function teste() {
             Bath={item.baths}
           />
         ))}
-      />
+      /> */}
+      <Swiper Data={Data} />
     </div>
   );
 }

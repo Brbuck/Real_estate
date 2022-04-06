@@ -22,6 +22,10 @@ export const Row = styled.div`
   align-items: center;
   overflow-x: hidden;
   transition: all ease 0.5s;
+
+  /* -webkit-overflow-scrolling: touch;
+  overflow-x: scroll;
+  scroll-behavior: smooth; */
 `;
 
 export const BoxButton = styled.div`
