@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
   margin-top: 30px;
 `;
 export const Container = styled.div`
-  position: relative
+  position: relative;
   width: 100%;
   height: auto;
   padding: 15px 0px;
@@ -23,9 +23,9 @@ export const Row = styled.div`
   overflow-x: hidden;
   transition: all ease 0.5s;
 
-  /* -webkit-overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch;
   overflow-x: scroll;
-  scroll-behavior: smooth; */
+  scroll-behavior: smooth;
 `;
 
 export const BoxButton = styled.div`
