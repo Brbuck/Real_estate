@@ -23,9 +23,11 @@ export const Row = styled.div`
   overflow-x: hidden;
   transition: all ease 0.5s;
 
-  -webkit-overflow-scrolling: touch;
-  overflow-x: scroll;
-  scroll-behavior: smooth;
+  @media (max-width: 1120px) {
+    -webkit-overflow-scrolling: touch;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+  }
 `;
 
 export const BoxButton = styled.div`
