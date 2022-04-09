@@ -1,27 +1,30 @@
-//import Link from "next/link";
+import Link from "next/link";
 import axios from "axios";
-import { Container } from "../../styles/index";
+
+import { Container } from "../styles/pages/index";
 import Card from "../components/Card";
 import Slider from "../Components/Slider";
 
-
-export default function Home({data}) {
+export default function Home({ data }) {
   return (
     <Container>
       <Slider
-        Title={"For Rent"}
+        Title={"For Sale"}
         Card={data?.map((item) => (
-          <Card
-            key={item?.id}
-            Url={item?.photo}
-            Title={item.title}
-            Price={item.price.toLocaleString("pt-br", {
-              style: "currency",
-              currency: "USD",
-            })}
-            Room={item.bedrooms}
-            Bath={item.baths}
-          />
+          <Link href={`properties/for-sale/${item.id}`} key={item?.id}>
+            <a>
+              <Card
+                Url={item?.coverphoto}
+                Title={item.title}
+                Price={item.price.toLocaleString("pt-br", {
+                  style: "currency",
+                  currency: "USD",
+                })}
+                Room={item.bedrooms}
+                Bath={item.baths}
+              />
+            </a>
+          </Link>
         ))}
       />
 
@@ -30,7 +33,7 @@ export default function Home({data}) {
         Card={data?.map((item) => (
           <Card
             key={item?.id}
-            Url={item?.photo}
+            Url={item?.coverphoto}
             Title={item?.title}
             Price={item?.price.toLocaleString("pt-br", {
               style: "currency",
@@ -41,17 +44,17 @@ export default function Home({data}) {
           />
         ))}
       />
-      
     </Container>
   );
 }
 
 export async function getStaticProps() {
-  const response = await axios.get('http://localhost:5000/sale')
-  
+  const response = await axios.get("http://localhost:5000/sale");
+
   return {
     props: {
-     data: response.data
-    },revalidate: 10,
+      data: response.data,
+    },
+    revalidate: 10,
   };
 }

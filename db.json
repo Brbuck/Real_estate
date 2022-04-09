@@ -1,527 +1,424 @@
 {
-    "sale": [
-      {
-        "id": 0,
-        "purpose": "for-sale",
-        "price": 870000,
-        "title": "One of communities Orlando's most recognized country clubs and Lake Nona4.5-star golf course.",
-        "area": 350,
-        "bedrooms": 3,
-        "baths": 4,
-        "garage": 4,
-        "address": "Horizon West, Flórida, EUA",
-        "photo": "https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_1280.jpg"
-      },
-      {
-        "id": 1,
-        "purpose": "for-sale",
-        "price": 610000,
-        "title": "Luxury 3-storey townhomes in the Packing District, a planned neighbourhood close to downtown Orlando and College Park.",
-        "area": 310,
-        "bedrooms": 3,
-        "baths": 5,
-        "garage": 3,
-        "address": "Horizon West, Flórida, EUA",
-        "photo": "https://cdn.pixabay.com/photo/2016/01/23/21/58/new-1158139_1280.jpg"
-      },
-      {
-        "id": 2,
-        "purpose": "for-sale",
-        "price": 720000,
-        "title": "Winter Garden's newest luxury community , with floor plans of Single Family, Twin and Bungalow homes.",
-        "area": 353,
-        "bedrooms": 5,
-        "baths": 5,
-        "garage": 4,
-        "address": "Westhaven at Ovation, Flórida, EUA",
-        "photo": "https://cdn.pixabay.com/photo/2017/08/07/19/04/house-2606818_1280.jpg"
-      },
-      {
-        "id": 3,
-        "purpose": "for-sale",
-        "price": 1300000,
-        "title": "A new Community residence located in the middle of the tourist area of Four Corners with super affordable prices.",
-        "area": 370,
-        "bedrooms": 6,
-        "baths": 5,
-        "garage": 3,
-        "address": "5220 Tuscany Ln, Davenport, FL 33897, EUA",
-        "photo": "https://cdn.pixabay.com/photo/2014/07/10/17/18/large-home-389271_1280.jpg"
-      },
-      {
-        "id": 4,
-        "purpose": "for-sale",
-        "price": 435000,
-        "title": "Mega Community by Lennar in Lake Nona surrounded by lots of nature, parks and with several options of floor plans.",
-        "area": 310,
-        "bedrooms": 2,
-        "baths": 3,
-        "garage": 3,
-        "address": "10914 History Ave, Orlando, FL 32832, EUA",
-        "photo": "https://cdn.pixabay.com/photo/2014/07/31/00/30/vw-beetle-405876_1280.jpg"
-      },
-      {
-        "id": 5,
-        "purpose": "for-sale",
-        "price": 1100000,
-        "title": "community in the traditional Dr Phillips area, with luxury homes from 3 to 7 bedrooms and opposite the new O-Town West shopping area.",
-        "area": 410,
-        "bedrooms": 7,
-        "baths": 6,
-        "garage": 4,
-        "address": "10784-10948, County Rd 435, Boston, EUA",
-        "photo": "https://cdn.pixabay.com/photo/2020/03/21/22/14/dublin-4955328_1280.jpg"
-      },
-      {
-        "id": 6,
-        "purpose": "for-sale",
-        "price": 1500000,
-        "title": "Luxury gated community arriving at Lake Nona that will offer only 124 residences, all with water views or conservation area.",
-        "area": 490,
-        "bedrooms": 7,
-        "baths": 6,
-        "garage": 6,
-        "address": "Lake Nona, Miame, Flórida, EUA",
-        "photo": "https://cdn.pixabay.com/photo/2013/11/13/21/14/san-francisco-210230_1280.jpg"
-      },
-      {
-        "id": 7,
-        "purpose": "for-sale",
-        "price": 782000,
-        "title": "Ideal option for those looking for new Townhome within walking distance of Minneola's excellent public schools.",
-        "area": 290,
-        "bedrooms": 3,
-        "baths": 3,
-        "garage": 2,
-        "address": "15938 Babair Ln., Minneola, FL 34715, EUA",
-        "photo": "https://cdn.pixabay.com/photo/2019/01/31/10/32/house-3966469_1280.jpg"
-      },
-      {
-        "id": 8,
-        "purpose": "for-sale",
-        "price": 1000000,
-        "title": "After 18 years, this will be your last chance to acquire a new home in Celebration.",
-        "area": 340,
-        "bedrooms": 5,
-        "baths": 5,
-        "garage": 2,
-        "address": "2229 Celebration Blvd, Florida 33896, EUA",
-        "photo": "https://cdn.pixabay.com/photo/2017/05/31/10/23/manor-house-2359884_1280.jpg"
-      },
-      {
-        "id": 9,
-        "purpose": "for-sale",
-        "price": 910000,
-        "title": "Set in a picturesque setting of over 1,400 acres and over a dozen clear water lakes and lagoons, Waterleigh is located within walking distance of nearby shops, restaurants and entertainment attractions.",
-        "area": 345,
-        "bedrooms": 5,
-        "baths": 5,
-        "garage": 3,
-        "address": "10243 Meadow Brook Dr, Winter Garden, FL 34787, EUA",
-        "photo": "https://cdn.pixabay.com/photo/2019/06/13/19/10/pool-house-4272310_1280.jpg"
+  "sale": [
+    {
+      "id": 0,
+      "purpose": "for-sale",
+      "price": 870000,
+      "title": "One of communities Orlando's most recognized country clubs and Lake Nona4.5-star golf course.",
+      "description": "EXPERIENCE THE LUXURY, PRIVACY, AND SECURITY OF LIVING IN BAL HARBOUR ON A TROPHY RESIDENTIAL SITE ON THE WIDE OPEN BAY BY A TALIESIN OF LEGENDARY AND RENOWNED ARCHITECT FRANK LLOYD WRIGHT.",
+      "area": 350,
+      "bedrooms": 3,
+      "baths": 4,
+      "garage": 4,
+      "address": "Horizon West, Flórida, EUA",
+      "coverphoto": "https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_1280.jpg",
+      "photos": [
+        {
+          "id": 110,
+          "url": "https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_1280.jpg"
+        },
+        {
+          "id": 111,
+          "url": "https://cdn.pixabay.com/photo/2016/09/19/17/20/home-1680800_1280.jpg"
+        },
+        {
+          "id": 112,
+          "url": "https://cdn.pixabay.com/photo/2017/03/22/17/39/kitchen-2165756_1280.jpg"
+        },
+        {
+          "id": 113,
+          "url": "https://cdn.pixabay.com/photo/2014/08/11/21/40/bedroom-416062_1280.jpg"
+        },
+        {
+          "id": 114,
+          "url": "https://cdn.pixabay.com/photo/2018/07/26/10/36/bathroom-3563272_1280.jpg"
+        }
+      ],
+      "agency": {
+        "name": "Manzel Kareem Real Estate",
+        "logo": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/27681814/9c7b944fa4344803a4cc318dd6160c78",
+        "mobile": "+971585768009",
+        "phone": "+97143433992",
+        "whatsapp": "971585768009"
       }
-    ],
-    "detail": [
-      {
-        "id": 0,
-        "price": 8700000,
-        "title": "One of communitiesOrlando's most recognized country clubs and Lake Nona4.5-star golf course.",
-        "description": "EXPERIENCE THE LUXURY, PRIVACY, AND SECURITY OF LIVING IN BAL HARBOUR ON A TROPHY RESIDENTIAL SITE ON THE WIDE OPEN BAY BY A TALIESIN OF LEGENDARY AND RENOWNED ARCHITECT FRANK LLOYD WRIGHT.",
-        "address": "Horizon West, Flórida, EUA",
-        "area": 350,
-        "bedrooms": 3,
-        "baths": 4,
-        "garage": 4,
-        "photos": [
-          {
-            "id": 110,
-            "url": "https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_1280.jpg"
-          },
-          {
-            "id": 111,
-            "url": "https://cdn.pixabay.com/photo/2016/09/19/17/20/home-1680800_1280.jpg"
-          },
-          {
-            "id": 112,
-            "url": "https://cdn.pixabay.com/photo/2017/03/22/17/39/kitchen-2165756_1280.jpg"
-          },
-          {
-            "id": 113,
-            "url": "https://cdn.pixabay.com/photo/2014/08/11/21/40/bedroom-416062_1280.jpg"
-          },
-          {
-            "id": 114,
-            "url": "https://cdn.pixabay.com/photo/2018/07/26/10/36/bathroom-3563272_1280.jpg"
-          }
-        ],
-        "agency": {
-          " name": "Manzel Kareem Real Estate",
-          "logo": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/27681814/9c7b944fa4344803a4cc318dd6160c78",
-          "mobile": "+971585768009",
-          "phone": "+97143433992",
-          "whatsapp": "971585768009"
+    },
+    {
+      "id": 1,
+      "purpose": "for-sale",
+      "price": 610000,
+      "title": "Luxury 3-storey townhomes in the Packing District, a planned neighbourhood close to downtown Orlando and College Park.",
+      "description": "The Brix at The Packing District is a new community of luxury 3-story townhomes (with optional terraces) in Orlando. The Community is located in the area called Packing District, which is being completely renovated and will feature the new Orlando Tennis Center.",
+      "area": 310,
+      "bedrooms": 3,
+      "baths": 5,
+      "garage": 3,
+      "address": "Horizon West, Flórida, EUA",
+      "coverphoto": "https://cdn.pixabay.com/photo/2016/01/23/21/58/new-1158139_1280.jpg",
+      "photos": [
+        {
+          "id": 115,
+          "url": "https://cdn.pixabay.com/photo/2016/01/23/21/58/new-1158139_1280.jpg"
+        },
+        {
+          "id": 116,
+          "url": "https://cdn.pixabay.com/photo/2017/08/27/10/16/interior-2685521_1280.jpg"
+        },
+        {
+          "id": 117,
+          "url": "https://cdn.pixabay.com/photo/2016/12/30/07/59/kitchen-1940174_1280.jpg"
+        },
+        {
+          "id": 118,
+          "url": "https://cdn.pixabay.com/photo/2020/11/24/11/36/bedroom-5772286_1280.jpg"
+        },
+        {
+          "id": 119,
+          "url": "https://cdn.pixabay.com/photo/2016/11/30/08/46/bathroom-1872193_1280.jpg"
         }
-      },
-      {
-        "id": 1,
-        "price": 610000000,
-        "title": "Luxury 3-storey townhomes in the Packing District, a planned neighbourhood close to downtown Orlando and College Park",
-        "description": "The Brix at The Packing District is a new community of luxury 3-story townhomes (with optional terraces) in Orlando. The Community is located in the area called Packing District, which is being completely renovated and will feature the new Orlando Tennis Center.",
-        "address": "Horizon West, Flórida, EUA",
-        "area": 310,
-        "bedrooms": 3,
-        "baths": 5,
-        "garage": 3,
-        "photos": [
-          {
-            "id": 115,
-            "url": "https://cdn.pixabay.com/photo/2016/01/23/21/58/new-1158139_1280.jpg"
-          },
-          {
-            "id": 116,
-            "url": "https://cdn.pixabay.com/photo/2017/08/27/10/16/interior-2685521_1280.jpg"
-          },
-          {
-            "id": 117,
-            "url": "https://cdn.pixabay.com/photo/2016/12/30/07/59/kitchen-1940174_1280.jpg"
-          },
-          {
-            "id": 118,
-            "url": "https://cdn.pixabay.com/photo/2020/11/24/11/36/bedroom-5772286_1280.jpg"
-          },
-          {
-            "id": 119,
-            "url": "https://cdn.pixabay.com/photo/2016/11/30/08/46/bathroom-1872193_1280.jpg"
-          }
-        ],
-        "agency": {
-          " name": "Manzel Kareem Real Estate",
-          "logo": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/27681814/9c7b944fa4344803a4cc318dd6160c78",
-          "mobile": "+971585768009",
-          "phone": "+97143433992",
-          "whatsapp": "971585768009"
-        }
-      },
-      {
-        "id": 2,
-        "price": 720000000,
-        "title": "Winter Garden's newest luxury community , with floor plans of Single Family, Twin and Bungalow homes",
-        "description": "Set in a lush natural setting, Westhaven at Ovation incorporates tranquility with a picturesque location just minutes from shopping, dining, entertainment and schools.Westhaven at Ovation will feature 368 units of townhomes, bungalows and single-family homes. There will be several low-rise floor plans with Coastal, Farmhouse and Craftsman inspired designs, ranging from approximately 1,700 to over 3,800 square feet (158 to 353 m2).",
-        "address": "Westhaven at Ovation, Flórida, EUA",
-        "area": 353,
-        "bedrooms": 5,
-        "baths": 5,
-        "garage": 4,
-        "photos": [
-          {
-            "id": 120,
-            "url": "https://cdn.pixabay.com/photo/2017/08/07/19/04/house-2606818_1280.jpg"
-          },
-          {
-            "id": 121,
-            "url": "https://cdn.pixabay.com/photo/2015/10/20/18/57/furniture-998265_1280.jpg"
-          },
-          {
-            "id": 122,
-            "url": "https://cdn.pixabay.com/photo/2017/06/13/22/42/kitchen-2400367_1280.jpg"
-          },
-          {
-            "id": 123,
-            "url": "https://cdn.pixabay.com/photo/2016/03/28/09/34/bedroom-1285156_1280.jpg"
-          },
-          {
-            "id": 124,
-            "url": "https://cdn.pixabay.com/photo/2017/03/10/10/07/bathroom-2132342_1280.jpg"
-          }
-        ],
-        "agency": {
-          " name": "Manzel Kareem Real Estate",
-          "logo": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/27681814/9c7b944fa4344803a4cc318dd6160c78",
-          "mobile": "+971585768009",
-          "phone": "+97143433992",
-          "whatsapp": "971585768009"
-        }
-      },
-      {
-        "id": 3,
-        "price": 1300000,
-        "title": "A new Community residence located in the middle of the tourist area of Four Corners with super affordable prices.",
-        "description": "Tierra del Sol offers a beautiful collection of single-family homes at a very affordable price, with size and layout options suitable for any family.Tierra del Sol's ideal location in the growing Four Corners area, southwest of Orlando, will provide fast access to the I-4 job corridor, as well as easy access to theme parks. Residents will enjoy the Amenities community's and proximity to schools, shops, restaurants, entertainment venues and more. ",
-        "address": "5220 Tuscany Ln, Davenport, FL 33897, EUA",
-        "area": 370,
-        "bedrooms": 6,
-        "baths": 5,
-        "garage": 3,
-        "photos": [
-          {
-            "id": 125,
-            "url": "https://cdn.pixabay.com/photo/2014/07/10/17/18/large-home-389271_1280.jpg"
-          },
-          {
-            "id": 126,
-            "url": "https://cdn.pixabay.com/photo/2017/03/28/12/10/chairs-2181947_1280.jpg"
-          },
-          {
-            "id": 127,
-            "url": "https://cdn.pixabay.com/photo/2016/04/18/08/50/kitchen-1336160_1280.jpg"
-          },
-          {
-            "id": 128,
-            "url": "https://cdn.pixabay.com/photo/2014/07/10/17/17/bedroom-389254_1280.jpg"
-          },
-          {
-            "id": 129,
-            "url": "https://cdn.pixabay.com/photo/2016/04/18/08/51/bathroom-1336165_1280.jpg"
-          }
-        ],
-        "agency": {
-          " name": "Manzel Kareem Real Estate",
-          "logo": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/27681814/9c7b944fa4344803a4cc318dd6160c78",
-          "mobile": "+971585768009",
-          "phone": "+97143433992",
-          "whatsapp": "971585768009"
-        }
-      },
-      {
-        "id": 4,
-        "price": 435000,
-        "title": "Mega Community by Lennar in Lake Nona surrounded by lots of nature, parks and with several options of floor plans.",
-        "description": "Storey Park is a new community built amidst nature, with hiking trails, parks, camping grounds and more. It is located near Highway 417, allowing rapid movement to Orlando's main sites. You Communitycan choose from floor plansTownhomes, Single Family Houses or Cottages. The houses come with General Eletric appliances and still have wi-fi security system and come prepared for home automation, so you can control the temperature, blinds, sound system and TV, lights, doors and much more, all done by your smartphone or voice commands.",
-        "address": "10914 History Ave, Orlando, FL 32832, EUA",
-        "area": 310,
-        "bedrooms": 2,
-        "baths": 3,
-        "garage": 3,
-        "photos": [
-          {
-            "id": 130,
-            "url": "https://cdn.pixabay.com/photo/2014/07/31/00/30/vw-beetle-405876_1280.jpg"
-          },
-          {
-            "id": 131,
-            "url": "https://cdn.pixabay.com/photo/2016/11/18/17/20/living-room-1835923_1280.jpg"
-          },
-          {
-            "id": 132,
-            "url": "https://cdn.pixabay.com/photo/2017/08/01/12/43/kitchen-2565105_1280.jpg"
-          },
-          {
-            "id": 133,
-            "url": "https://cdn.pixabay.com/photo/2020/10/18/09/16/bedroom-5664221_1280.jpg"
-          },
-          {
-            "id": 134,
-            "url": "https://cdn.pixabay.com/photo/2016/08/26/15/06/bathroom-1622403_1280.jpg"
-          }
-        ],
-        "agency": {
-          " name": "Manzel Kareem Real Estate",
-          "logo": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/27681814/9c7b944fa4344803a4cc318dd6160c78",
-          "mobile": "+971585768009",
-          "phone": "+97143433992",
-          "whatsapp": "971585768009"
-        }
-      },
-      {
-        "id": 5,
-        "price": 1100000,
-        "title": "community in the traditional Dr Phillips area, with luxury homes from 3 to 7 bedrooms and opposite the new O-Town West shopping area.",
-        "description": "The beauty of Phillips Grove is not only the perfect location in Doctor Phillips - just minutes from I-4, Restaurant Row, schools and shops. Nor is it about the more than 6 acres of land that offer views of the untouched Lakes Butler chain. The best part of Phillips Grove is the families who will build a life in your new home - customized to meet your needs and lifestyle - with the quality finishes, elegant options and detailed craftsmanship for which Pulte is known.",
-        "address": "10784-10948, County Rd 435, Boston, EUA",
-        "area": 410,
-        "bedrooms": 7,
-        "baths": 6,
-        "garage": 4,
-        "photos": [
-          {
-            "id": 135,
-            "url": "https://cdn.pixabay.com/photo/2020/03/21/22/14/dublin-4955328_1280.jpg"
-          },
-          {
-            "id": 136,
-            "url": "https://cdn.pixabay.com/photo/2017/01/07/17/48/interior-1961070_1280.jpg"
-          },
-          {
-            "id": 137,
-            "url": "https://cdn.pixabay.com/photo/2017/02/24/12/19/apartment-2094666_1280.jpg"
-          },
-          {
-            "id": 138,
-            "url": "https://cdn.pixabay.com/photo/2016/11/19/13/06/bed-1839183_1280.jpg"
-          },
-          {
-            "id": 139,
-            "url": "https://cdn.pixabay.com/photo/2018/01/29/07/55/modern-minimalist-bathroom-3115450_1280.jpg"
-          }
-        ],
-        "agency": {
-          " name": "Manzel Kareem Real Estate",
-          "logo": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/27681814/9c7b944fa4344803a4cc318dd6160c78",
-          "mobile": "+971585768009",
-          "phone": "+97143433992",
-          "whatsapp": "971585768009"
-        }
-      },
-      {
-        "id": 6,
-        "price": 1500000,
-        "title": "Luxury gated community arriving at Lake Nona that will offer only 124 residences, all with water views or conservation area.",
-        "description": "Laurel Pointe will be a luxury gated community at Lake Nona, which will feature only 124 single-family residences with water views or conservation area.Conveniently located near Orange County's A-rated schools and a short drive from Orlando International Airport, Laurel Pointe will be close to top shopping, dining, arts and recreation destinations, including Lake Nona Town Center.",
-        "address": "Lake Nona, Miame, Flórida, EUA",
-        "area": 490,
-        "bedrooms": 7,
-        "baths": 6,
-        "garage": 6,
-        "photos": [
-          {
-            "id": 140,
-            "url": "https://cdn.pixabay.com/photo/2013/11/13/21/14/san-francisco-210230_1280.jpg"
-          },
-          {
-            "id": 141,
-            "url": "https://cdn.pixabay.com/photo/2017/09/09/18/25/living-room-2732939_1280.jpg"
-          },
-          {
-            "id": 142,
-            "url": "https://cdn.pixabay.com/photo/2021/11/08/00/30/kitchen-6778196_1280.jpg"
-          },
-          {
-            "id": 143,
-            "url": "https://cdn.pixabay.com/photo/2021/08/27/01/33/bedroom-6577523_1280.jpg"
-          },
-          {
-            "id": 144,
-            "url": "https://cdn.pixabay.com/photo/2018/09/20/02/44/bathroom-3689922_1280.jpg"
-          }
-        ],
-        "agency": {
-          " name": "Manzel Kareem Real Estate",
-          "logo": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/27681814/9c7b944fa4344803a4cc318dd6160c78",
-          "mobile": "+971585768009",
-          "phone": "+97143433992",
-          "whatsapp": "971585768009"
-        }
-      },
-      {
-        "id": 7,
-        "price": 782000,
-        "title": "Ideal option for those looking for new Townhome within walking distance of Minneola's excellent public schools.",
-        "description": "This can be an excellent option for those who are looking to acquire their first property for housing or as an investment, surrounded by well-rated, low maintenance schools, outdoor activities, as well as an easy commute on a daily basis.",
-        "address": "15938 Babair Ln., Minneola, FL 34715, EUA",
-        "area": 290,
-        "bedrooms": 3,
-        "baths": 3,
-        "garage": 2,
-        "photos": [
-          {
-            "id": 145,
-            "url": "https://cdn.pixabay.com/photo/2019/01/31/10/32/house-3966469_1280.jpg"
-          },
-          {
-            "id": 146,
-            "url": "https://cdn.pixabay.com/photo/2016/07/14/02/22/living-room-1515976_1280.jpg"
-          },
-          {
-            "id": 147,
-            "url": "https://cdn.pixabay.com/photo/2016/11/09/02/21/dining-1809844_1280.jpg"
-          },
-          {
-            "id": 148,
-            "url": "https://cdn.pixabay.com/photo/2016/11/19/13/06/bed-1839184_1280.jpg"
-          },
-          {
-            "id": 149,
-            "url": "https://cdn.pixabay.com/photo/2021/12/18/06/02/bathroom-6878035_1280.jpg"
-          }
-        ],
-        "agency": {
-          " name": "Manzel Kareem Real Estate",
-          "logo": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/27681814/9c7b944fa4344803a4cc318dd6160c78",
-          "mobile": "+971585768009",
-          "phone": "+97143433992",
-          "whatsapp": "971585768009"
-        }
-      },
-      {
-        "id": 8,
-        "price": 1000000,
-        "title": "After 18 years, this will be your last chance to acquire a new home in Celebration.",
-        "description": "As the final stage of the world famous Celebration community, Island Village will have over 1,000 homes, all just outside Walt Disney World. A generous park space, an occasional gathering place, trails, beautiful retail stores, beautiful swimming pools and premium recreation centers will be key factors in shaping the Island Village at Celebration lifestyle experience.",
-        "address": "2229 Celebration Blvd, Florida 33896, EUA",
-        "area": 340,
-        "bedrooms": 5,
-        "baths": 5,
-        "garage": 2,
-        "photos": [
-          {
-            "id": 150,
-            "url": "https://cdn.pixabay.com/photo/2017/05/31/10/23/manor-house-2359884_1280.jpg"
-          },
-          {
-            "id": 151,
-            "url": "https://cdn.pixabay.com/photo/2019/06/13/17/09/pool-4272052_1280.jpg"
-          },
-          {
-            "id": 152,
-            "url": "https://cdn.pixabay.com/photo/2018/09/20/02/39/kitchen-3689917_1280.jpg"
-          },
-          {
-            "id": 153,
-            "url": "https://cdn.pixabay.com/photo/2016/11/30/08/48/bedroom-1872196_1280.jpg"
-          },
-          {
-            "id": 154,
-            "url": "https://cdn.pixabay.com/photo/2017/08/20/09/16/bath-2660937_1280.jpg"
-          }
-        ],
-        "agency": {
-          " name": "Manzel Kareem Real Estate",
-          "logo": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/27681814/9c7b944fa4344803a4cc318dd6160c78",
-          "mobile": "+971585768009",
-          "phone": "+97143433992",
-          "whatsapp": "971585768009"
-        }
-      },
-      {
-        "id": 9,
-        "price": 910000,
-        "title": "Set in a picturesque setting of over 1,400 acres and over a dozen clear water lakes and lagoons, Waterleigh is located within walking distance of nearby shops, restaurants and entertainment attractions.",
-        "description": "Community design and development reflect the natural environments of land and water. Rolling terrains with low swamps, beautiful lakes and scenic lagoons create a living environment that respects and embraces these wonderful qualities. The perfect place for your family to call home!",
-        "address": "10243 Meadow Brook Dr, Winter Garden, FL 34787, EUA",
-        "area": 345,
-        "bedrooms": 5,
-        "baths": 5,
-        "garage": 3,
-        "photos": [
-          {
-            "id": 155,
-            "url": "https://cdn.pixabay.com/photo/2019/06/13/19/10/pool-house-4272310_1280.jpg"
-          },
-          {
-            "id": 156,
-            "url": "https://cdn.pixabay.com/photo/2014/07/10/17/17/living-room-389264_1280.jpg"
-          },
-          {
-            "id": 157,
-            "url": "https://cdn.pixabay.com/photo/2018/09/20/02/39/kitchen-3689918_1280.jpg"
-          },
-          {
-            "id": 158,
-            "url": "https://cdn.pixabay.com/photo/2018/01/25/20/53/lifestyle-3107041_1280.jpg"
-          },
-          {
-            "id": 159,
-            "url": "https://cdn.pixabay.com/photo/2015/05/09/09/06/bathroom-759473_1280.jpg"
-          }
-        ],
-        "agency": {
-          " name": "Manzel Kareem Real Estate",
-          "logo": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/27681814/9c7b944fa4344803a4cc318dd6160c78",
-          "mobile": "+971585768009",
-          "phone": "+97143433992",
-          "whatsapp": "971585768009"
-        }
+      ],
+      "agency": {
+        "name": "Manzel Kareem Real Estate",
+        "logo": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/27681814/9c7b944fa4344803a4cc318dd6160c78",
+        "mobile": "+971585768009",
+        "phone": "+97143433992",
+        "whatsapp": "971585768009"
       }
-    ]
-  }
-  
+    },
+    {
+      "id": 2,
+      "purpose": "for-sale",
+      "price": 720000,
+      "title": "Winter Garden's newest luxury community , with floor plans of Single Family, Twin and Bungalow homes.",
+      "description": "Set in a lush natural setting, Westhaven at Ovation incorporates tranquility with a picturesque location just minutes from shopping, dining, entertainment and schools.Westhaven at Ovation will feature 368 units of townhomes, bungalows and single-family homes. There will be several low-rise floor plans with Coastal, Farmhouse and Craftsman inspired designs, ranging from approximately 1,700 to over 3,800 square feet (158 to 353 m2).",
+      "area": 353,
+      "bedrooms": 5,
+      "baths": 5,
+      "garage": 4,
+      "address": "Westhaven at Ovation, Flórida, EUA",
+      "coverphoto": "https://cdn.pixabay.com/photo/2017/08/07/19/04/house-2606818_1280.jpg",
+      "photos": [
+        {
+          "id": 120,
+          "url": "https://cdn.pixabay.com/photo/2017/08/07/19/04/house-2606818_1280.jpg"
+        },
+        {
+          "id": 121,
+          "url": "https://cdn.pixabay.com/photo/2015/10/20/18/57/furniture-998265_1280.jpg"
+        },
+        {
+          "id": 122,
+          "url": "https://cdn.pixabay.com/photo/2017/06/13/22/42/kitchen-2400367_1280.jpg"
+        },
+        {
+          "id": 123,
+          "url": "https://cdn.pixabay.com/photo/2016/03/28/09/34/bedroom-1285156_1280.jpg"
+        },
+        {
+          "id": 124,
+          "url": "https://cdn.pixabay.com/photo/2017/03/10/10/07/bathroom-2132342_1280.jpg"
+        }
+      ],
+      "agency": {
+        "name": "Manzel Kareem Real Estate",
+        "logo": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/27681814/9c7b944fa4344803a4cc318dd6160c78",
+        "mobile": "+971585768009",
+        "phone": "+97143433992",
+        "whatsapp": "971585768009"
+      }
+    },
+    {
+      "id": 3,
+      "purpose": "for-sale",
+      "price": 1300000,
+      "title": "A new Community residence located in the middle of the tourist area of Four Corners with super affordable prices.",
+      "description": "Tierra del Sol offers a beautiful collection of single-family homes at a very affordable price, with size and layout options suitable for any family.Tierra del Sol's ideal location in the growing Four Corners area, southwest of Orlando, will provide fast access to the I-4 job corridor, as well as easy access to theme parks. Residents will enjoy the Amenities community's and proximity to schools, shops, restaurants, entertainment venues and more. ",
+      "area": 370,
+      "bedrooms": 6,
+      "baths": 5,
+      "garage": 3,
+      "address": "5220 Tuscany Ln, Davenport, FL 33897, EUA",
+      "coverphoto": "https://cdn.pixabay.com/photo/2014/07/10/17/18/large-home-389271_1280.jpg",
+      "photos": [
+        {
+          "id": 125,
+          "url": "https://cdn.pixabay.com/photo/2014/07/10/17/18/large-home-389271_1280.jpg"
+        },
+        {
+          "id": 126,
+          "url": "https://cdn.pixabay.com/photo/2017/03/28/12/10/chairs-2181947_1280.jpg"
+        },
+        {
+          "id": 127,
+          "url": "https://cdn.pixabay.com/photo/2016/04/18/08/50/kitchen-1336160_1280.jpg"
+        },
+        {
+          "id": 128,
+          "url": "https://cdn.pixabay.com/photo/2014/07/10/17/17/bedroom-389254_1280.jpg"
+        },
+        {
+          "id": 129,
+          "url": "https://cdn.pixabay.com/photo/2016/04/18/08/51/bathroom-1336165_1280.jpg"
+        }
+      ],
+      "agency": {
+        "name": "Manzel Kareem Real Estate",
+        "logo": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/27681814/9c7b944fa4344803a4cc318dd6160c78",
+        "mobile": "+971585768009",
+        "phone": "+97143433992",
+        "whatsapp": "971585768009"
+      }
+    },
+    {
+      "id": 4,
+      "purpose": "for-sale",
+      "price": 435000,
+      "title": "Mega Community by Lennar in Lake Nona surrounded by lots of nature, parks and with several options of floor plans.",
+      "description": "Storey Park is a new community built amidst nature, with hiking trails, parks, camping grounds and more. It is located near Highway 417, allowing rapid movement to Orlando's main sites. You Communitycan choose from floor plansTownhomes, Single Family Houses or Cottages. The houses come with General Eletric appliances and still have wi-fi security system and come prepared for home automation, so you can control the temperature, blinds, sound system and TV, lights, doors and much more, all done by your smartphone or voice commands.",
+      "area": 310,
+      "bedrooms": 2,
+      "baths": 3,
+      "garage": 3,
+      "address": "10914 History Ave, Orlando, FL 32832, EUA",
+      "coverphoto": "https://cdn.pixabay.com/photo/2014/07/31/00/30/vw-beetle-405876_1280.jpg",
+      "photos": [
+        {
+          "id": 130,
+          "url": "https://cdn.pixabay.com/photo/2014/07/31/00/30/vw-beetle-405876_1280.jpg"
+        },
+        {
+          "id": 131,
+          "url": "https://cdn.pixabay.com/photo/2016/11/18/17/20/living-room-1835923_1280.jpg"
+        },
+        {
+          "id": 132,
+          "url": "https://cdn.pixabay.com/photo/2017/08/01/12/43/kitchen-2565105_1280.jpg"
+        },
+        {
+          "id": 133,
+          "url": "https://cdn.pixabay.com/photo/2020/10/18/09/16/bedroom-5664221_1280.jpg"
+        },
+        {
+          "id": 134,
+          "url": "https://cdn.pixabay.com/photo/2016/08/26/15/06/bathroom-1622403_1280.jpg"
+        }
+      ],
+      "agency": {
+        "name": "Manzel Kareem Real Estate",
+        "logo": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/27681814/9c7b944fa4344803a4cc318dd6160c78",
+        "mobile": "+971585768009",
+        "phone": "+97143433992",
+        "whatsapp": "971585768009"
+      }
+    },
+    {
+      "id": 5,
+      "purpose": "for-sale",
+      "price": 1100000,
+      "title": "community in the traditional Dr Phillips area, with luxury homes from 3 to 7 bedrooms and opposite the new O-Town West shopping area.",
+      "description": "The beauty of Phillips Grove is not only the perfect location in Doctor Phillips - just minutes from I-4, Restaurant Row, schools and shops. Nor is it about the more than 6 acres of land that offer views of the untouched Lakes Butler chain. The best part of Phillips Grove is the families who will build a life in your new home - customized to meet your needs and lifestyle - with the quality finishes, elegant options and detailed craftsmanship for which Pulte is known.",
+      "area": 410,
+      "bedrooms": 7,
+      "baths": 6,
+      "garage": 4,
+      "address": "10784-10948, County Rd 435, Boston, EUA",
+      "coverphoto": "https://cdn.pixabay.com/photo/2020/03/21/22/14/dublin-4955328_1280.jpg",
+      "photos": [
+        {
+          "id": 135,
+          "url": "https://cdn.pixabay.com/photo/2020/03/21/22/14/dublin-4955328_1280.jpg"
+        },
+        {
+          "id": 136,
+          "url": "https://cdn.pixabay.com/photo/2017/01/07/17/48/interior-1961070_1280.jpg"
+        },
+        {
+          "id": 137,
+          "url": "https://cdn.pixabay.com/photo/2017/02/24/12/19/apartment-2094666_1280.jpg"
+        },
+        {
+          "id": 138,
+          "url": "https://cdn.pixabay.com/photo/2016/11/19/13/06/bed-1839183_1280.jpg"
+        },
+        {
+          "id": 139,
+          "url": "https://cdn.pixabay.com/photo/2018/01/29/07/55/modern-minimalist-bathroom-3115450_1280.jpg"
+        }
+      ],
+      "agency": {
+        "name": "Manzel Kareem Real Estate",
+        "logo": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/27681814/9c7b944fa4344803a4cc318dd6160c78",
+        "mobile": "+971585768009",
+        "phone": "+97143433992",
+        "whatsapp": "971585768009"
+      }
+    },
+    {
+      "id": 6,
+      "purpose": "for-sale",
+      "price": 1500000,
+      "title": "Luxury gated community arriving at Lake Nona that will offer only 124 residences, all with water views or conservation area.",
+      "description": "Laurel Pointe will be a luxury gated community at Lake Nona, which will feature only 124 single-family residences with water views or conservation area.Conveniently located near Orange County's A-rated schools and a short drive from Orlando International Airport, Laurel Pointe will be close to top shopping, dining, arts and recreation destinations, including Lake Nona Town Center.",
+      "area": 490,
+      "bedrooms": 7,
+      "baths": 6,
+      "garage": 6,
+      "address": "Lake Nona, Miame, Flórida, EUA",
+      "coverphoto": "https://cdn.pixabay.com/photo/2013/11/13/21/14/san-francisco-210230_1280.jpg",
+      "photos": [
+        {
+          "id": 140,
+          "url": "https://cdn.pixabay.com/photo/2013/11/13/21/14/san-francisco-210230_1280.jpg"
+        },
+        {
+          "id": 141,
+          "url": "https://cdn.pixabay.com/photo/2017/09/09/18/25/living-room-2732939_1280.jpg"
+        },
+        {
+          "id": 142,
+          "url": "https://cdn.pixabay.com/photo/2021/11/08/00/30/kitchen-6778196_1280.jpg"
+        },
+        {
+          "id": 143,
+          "url": "https://cdn.pixabay.com/photo/2021/08/27/01/33/bedroom-6577523_1280.jpg"
+        },
+        {
+          "id": 144,
+          "url": "https://cdn.pixabay.com/photo/2018/09/20/02/44/bathroom-3689922_1280.jpg"
+        }
+      ],
+      "agency": {
+        "name": "Manzel Kareem Real Estate",
+        "logo": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/27681814/9c7b944fa4344803a4cc318dd6160c78",
+        "mobile": "+971585768009",
+        "phone": "+97143433992",
+        "whatsapp": "971585768009"
+      }
+    },
+    {
+      "id": 7,
+      "purpose": "for-sale",
+      "price": 782000,
+      "title": "Ideal option for those looking for new Townhome within walking distance of Minneola's excellent public schools.",
+      "description": "This can be an excellent option for those who are looking to acquire their first property for housing or as an investment, surrounded by well-rated, low maintenance schools, outdoor activities, as well as an easy commute on a daily basis.",
+      "area": 290,
+      "bedrooms": 3,
+      "baths": 3,
+      "garage": 2,
+      "address": "15938 Babair Ln., Minneola, FL 34715, EUA",
+      "coverphoto": "https://cdn.pixabay.com/photo/2019/01/31/10/32/house-3966469_1280.jpg",
+      "photos": [
+        {
+          "id": 145,
+          "url": "https://cdn.pixabay.com/photo/2019/01/31/10/32/house-3966469_1280.jpg"
+        },
+        {
+          "id": 146,
+          "url": "https://cdn.pixabay.com/photo/2016/07/14/02/22/living-room-1515976_1280.jpg"
+        },
+        {
+          "id": 147,
+          "url": "https://cdn.pixabay.com/photo/2016/11/09/02/21/dining-1809844_1280.jpg"
+        },
+        {
+          "id": 148,
+          "url": "https://cdn.pixabay.com/photo/2016/11/19/13/06/bed-1839184_1280.jpg"
+        },
+        {
+          "id": 149,
+          "url": "https://cdn.pixabay.com/photo/2021/12/18/06/02/bathroom-6878035_1280.jpg"
+        }
+      ],
+      "agency": {
+        "name": "Manzel Kareem Real Estate",
+        "logo": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/27681814/9c7b944fa4344803a4cc318dd6160c78",
+        "mobile": "+971585768009",
+        "phone": "+97143433992",
+        "whatsapp": "971585768009"
+      }
+    },
+    {
+      "id": 8,
+      "purpose": "for-sale",
+      "price": 1000000,
+      "title": "After 18 years, this will be your last chance to acquire a new home in Celebration.",
+      "description": "As the final stage of the world famous Celebration community, Island Village will have over 1,000 homes, all just outside Walt Disney World. A generous park space, an occasional gathering place, trails, beautiful retail stores, beautiful swimming pools and premium recreation centers will be key factors in shaping the Island Village at Celebration lifestyle experience.",
+      "area": 340,
+      "bedrooms": 5,
+      "baths": 5,
+      "garage": 2,
+      "address": "2229 Celebration Blvd, Florida 33896, EUA",
+      "coverphoto": "https://cdn.pixabay.com/photo/2017/05/31/10/23/manor-house-2359884_1280.jpg",
+      "photos": [
+        {
+          "id": 150,
+          "url": "https://cdn.pixabay.com/photo/2017/05/31/10/23/manor-house-2359884_1280.jpg"
+        },
+        {
+          "id": 151,
+          "url": "https://cdn.pixabay.com/photo/2019/06/13/17/09/pool-4272052_1280.jpg"
+        },
+        {
+          "id": 152,
+          "url": "https://cdn.pixabay.com/photo/2018/09/20/02/39/kitchen-3689917_1280.jpg"
+        },
+        {
+          "id": 153,
+          "url": "https://cdn.pixabay.com/photo/2016/11/30/08/48/bedroom-1872196_1280.jpg"
+        },
+        {
+          "id": 154,
+          "url": "https://cdn.pixabay.com/photo/2017/08/20/09/16/bath-2660937_1280.jpg"
+        }
+      ],
+      "agency": {
+        "name": "Manzel Kareem Real Estate",
+        "logo": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/27681814/9c7b944fa4344803a4cc318dd6160c78",
+        "mobile": "+971585768009",
+        "phone": "+97143433992",
+        "whatsapp": "971585768009"
+      }
+    },
+    {
+      "id": 9,
+      "purpose": "for-sale",
+      "price": 910000,
+      "title": "Set in a picturesque setting of over 1,400 acres and over a dozen clear water lakes and lagoons.",
+      "description": "Community design and development reflect the natural environments of land and water. Rolling terrains with low swamps, beautiful lakes and scenic lagoons create a living environment that respects and embraces these wonderful qualities. The perfect place for your family to call home!",
+      "area": 345,
+      "bedrooms": 5,
+      "baths": 5,
+      "garage": 3,
+      "address": "10243 Meadow Brook Dr, Winter Garden, FL 34787, EUA",
+      "coverphoto": "https://cdn.pixabay.com/photo/2019/06/13/19/10/pool-house-4272310_1280.jpg",
+      "photos": [
+        {
+          "id": 155,
+          "url": "https://cdn.pixabay.com/photo/2019/06/13/19/10/pool-house-4272310_1280.jpg"
+        },
+        {
+          "id": 156,
+          "url": "https://cdn.pixabay.com/photo/2014/07/10/17/17/living-room-389264_1280.jpg"
+        },
+        {
+          "id": 157,
+          "url": "https://cdn.pixabay.com/photo/2018/09/20/02/39/kitchen-3689918_1280.jpg"
+        },
+        {
+          "id": 158,
+          "url": "https://cdn.pixabay.com/photo/2018/01/25/20/53/lifestyle-3107041_1280.jpg"
+        },
+        {
+          "id": 159,
+          "url": "https://cdn.pixabay.com/photo/2015/05/09/09/06/bathroom-759473_1280.jpg"
+        }
+      ],
+      "agency": {
+        "name": "Manzel Kareem Real Estate",
+        "logo": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/27681814/9c7b944fa4344803a4cc318dd6160c78",
+        "mobile": "+971585768009",
+        "phone": "+97143433992",
+        "whatsapp": "971585768009"
+      }
+    }
+  ]
+}

@@ -11,7 +11,7 @@ import {
   RoomIcon,
   Title,
   WrapperInfo,
-} from "../../styles/teste";
+} from "../styles/teste";
 
 export default function teste() {
   return (

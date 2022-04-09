@@ -11,6 +11,7 @@ export const Container = styled.div`
   height: 320px;
   box-shadow: 2px 2px 5px 0px #ccc;
   color: #7b7672;
+  cursor: pointer;
 
   img {
     width: 100%;

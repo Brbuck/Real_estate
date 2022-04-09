@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -37,7 +37,7 @@ export default function SwiperSlider({ Data }) {
       >
         {Data?.map((item) => (
           <SwiperSlide key={item.id}>
-            <img src={item?.photo} />
+            <img src={item?.url} alt='properties image' />
           </SwiperSlide>
         ))}
       </Swiper>
