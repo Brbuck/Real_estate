@@ -15,6 +15,9 @@ export const Container = styled.div`
 
 export const Title = styled.h1`
   padding: 0px 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 
   @media (max-width: 700px) {
     font-size: 1.5rem;
@@ -22,9 +25,6 @@ export const Title = styled.h1`
 
   @media (max-width: 540px) {
     font-size: 1.2rem;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
   }
 `;
 
@@ -61,7 +61,6 @@ export const DetailPropertie = styled.div`
       flex-direction: column;
       align-items: center;
       color: #0089ff;
-
     }
   }
 `;

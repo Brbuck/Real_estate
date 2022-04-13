@@ -15,7 +15,7 @@ import {
   RoomIcon,
   Title,
   WrapperInfo,
-} from "../../../styles/pages/for-sale";
+} from "../../../styles/pages/property";
 
 export default function Sale({ id }) {
   const { isFallback } = useRouter();
@@ -29,7 +29,7 @@ export default function Sale({ id }) {
     <Swiper Data={id?.photos} />
     <Container>
       <Title>
-        {id?.title}
+        {id?.description}
       </Title>
       <WrapperInfo>
         <DetailPropertie>
