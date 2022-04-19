@@ -1,7 +1,9 @@
+import { useState } from "react";
 import axios from "axios";
 import { useRouter } from "next/router";
 
 import Swiper from "../../../components/Swiper";
+import ContactModal from "../../../components/ContactModal";
 
 import {
   AreaIcon,
@@ -18,6 +20,12 @@ import {
 } from "../../../styles/pages/property";
 
 export default function Sale({ id }) {
+  const [showModal, setShowModal] = useState(false);
+
+  function ShowContactModal() {
+    setShowModal(!showModal);
+  }
+
   const { isFallback } = useRouter();
 
   if (isFallback) {
@@ -26,62 +34,61 @@ export default function Sale({ id }) {
 
   return (
     <>
-    <Swiper Data={id?.photos} />
-    <Container>
-      <Title>
-        {id?.description}
-      </Title>
-      <WrapperInfo>
-        <DetailPropertie>
-          <span>
-           {id?.address}
-          </span>
-          <h3>{id?.price.toLocaleString("pt-br", {
-              style: "currency",
-              currency: "USD",
-            })}</h3>
+     {showModal ? <ContactModal id={id} ShowContactModal={ShowContactModal} /> : null}
+      <Swiper Data={id?.photos} />
+      <Container onClick={ShowContactModal}>
+      
+        <Title>{id?.description}</Title>
+        <WrapperInfo>
+          <DetailPropertie>
+            <span>{id?.address}</span>
+            <h3>
+              {id?.price.toLocaleString("pt-br", {
+                style: "currency",
+                currency: "USD",
+              })}
+            </h3>
+            <div>
+              <span>
+                <AreaIcon />
+                {id?.area}
+              </span>
+              <span>
+                <RoomIcon />
+                {id?.bedrooms}
+              </span>
+              <span>
+                <BathIcon />
+                {id?.baths}
+              </span>
+              <span>
+                <GarageIcon />
+                {id?.garage}
+              </span>
+            </div>
+          </DetailPropertie>
+          <Contact>
+            <div>
+              <img src={id?.agency.logo} alt="#" />
+              <h4>{id?.agency.name}</h4>
+            </div>
+            <EditButton onClick={ShowContactModal}>Contact</EditButton>
+          </Contact>
+        </WrapperInfo>
+        <PropertyFeatures>
           <div>
-            <span>
-              <AreaIcon />{id?.area}
-            </span>
-            <span>
-              <RoomIcon />{id?.bedrooms}
-            </span>
-            <span>
-              <BathIcon />{id?.baths}
-            </span>
-            <span>
-              <GarageIcon />{id?.garage}
-            </span>
+            <h3>Property Features</h3>
+            <span>Pool</span>
+            <span>Gym</span>
+            <span>Air conditioning</span>
+            <span>Desk</span>
           </div>
-        </DetailPropertie>
-        <Contact>
           <div>
-            <img
-              src={id?.agency.logo}
-              alt="#"
-            />
-            <h4>{id?.agency.name}</h4>
+            <p>{id?.description}</p>
           </div>
-          <EditButton>Contato</EditButton>
-        </Contact>
-      </WrapperInfo>
-      <PropertyFeatures>
-        <div>
-          <h3>Property Features</h3>
-          <span>Pool</span>
-          <span>Gym</span>
-          <span>Air conditioning</span>
-          <span>Desk</span>
-        </div>
-        <div>
-          <p>
-            {id?.description}
-          </p>
-        </div>
-      </PropertyFeatures>
-    </Container>
-  </>
+        </PropertyFeatures>
+      </Container>
+    </>
   );
 }
 
@@ -92,7 +99,7 @@ export async function getStaticPaths() {
 
   // Get the paths we want to pre-render based on posts
   const paths = data.map((item) => ({
-     params: { id: item.id.toString() },
+    params: { id: item.id.toString() },
   }));
 
   // We'll pre-render only these paths at build time.
@@ -113,4 +120,3 @@ export async function getStaticProps({ params }) {
     revalidate: 100,
   };
 }
-
