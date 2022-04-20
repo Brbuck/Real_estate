@@ -1,7 +1,9 @@
+import { useState } from "react";
 import axios from "axios";
 import { useRouter } from "next/router";
 
 import Swiper from "../../../components/Swiper";
+import ContactModal from "../../../components/ContactModal";
 
 import {
   AreaIcon,
@@ -18,6 +20,12 @@ import {
 } from "../../../styles/pages/property";
 
 export default function Sale({ id }) {
+  const [showModal, setShowModal] = useState(false);
+
+  function ShowContactModal() {
+    setShowModal(!showModal);
+    
+  }
   const { isFallback } = useRouter();
 
   if (isFallback) {
@@ -26,6 +34,9 @@ export default function Sale({ id }) {
 
   return (
     <>
+      {showModal ? (
+        <ContactModal id={id} ShowContactModal={ShowContactModal} />
+      ) : null}
       <Swiper Data={id?.photos} />
       <Container>
         <Title>{id?.description}</Title>
@@ -62,7 +73,7 @@ export default function Sale({ id }) {
               <img src={id?.agency.logo} alt="#" />
               <h4>{id?.agency.name}</h4>
             </div>
-            <EditButton>Contato</EditButton>
+            <EditButton onClick={ShowContactModal}>Contact</EditButton>
           </Contact>
         </WrapperInfo>
         <PropertyFeatures>

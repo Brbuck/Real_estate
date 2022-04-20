@@ -12,6 +12,8 @@ const Container = styled.div`
   //max-width: 1080px;
   margin: 0px auto;
   padding: 20px;
+
+  background-color: #f9f9f9;
 `;
 
 export default function Layout({ children }) {

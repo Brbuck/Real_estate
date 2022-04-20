@@ -5,9 +5,9 @@ import { AiOutlineClose } from "react-icons/ai";
 
 export const Container = styled.div`
   width: 100%;
-  height: 100vh;
+  height: 100%;
 
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   display: flex;
@@ -58,5 +58,5 @@ export const ClosedButton = styled(AiOutlineClose)`
 
 export const ClosedModalButton = styled(Button)`
   background-color: #663e79;
-  color: #FFF;
+  color: #fff;
 `;

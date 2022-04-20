@@ -152,6 +152,7 @@ export const PropertyFeatures = styled(WrapperInfo)`
   div {
     flex: 1;
     p {
+      font-size: 1rem;
       line-height: 20px;
       color: #3b3f45;
     }

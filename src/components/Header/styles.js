@@ -51,7 +51,7 @@ export const Navigation = styled.nav`
     width: 100%;
     height: 100vh;
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     z-index: 10;
     top: 0;
     left: 0;

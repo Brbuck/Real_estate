@@ -10,7 +10,7 @@ export const Container = styled.div`
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  background-color: #f9f9f9;
 
   /* Center slide text vertically */
   display: -webkit-box;
