@@ -22,6 +22,7 @@ export default function Home({ propertyForSale, propertyForRent }) {
                 })}
                 Room={item.bedrooms}
                 Bath={item.baths}
+                Garage={item?.garage}
               />
             </a>
           </Link>
@@ -43,6 +44,7 @@ export default function Home({ propertyForSale, propertyForRent }) {
                 })}
                 Room={item?.bedrooms}
                 Bath={item?.baths}
+                Garage={item?.garage}
               />
             </a>
           </Link>

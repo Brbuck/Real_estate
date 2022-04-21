@@ -13,7 +13,7 @@ function Slider({ Card, Title }) {
   const [scrollX, setScrollX] = useState(0);
 
   function LeftArrow() {
-    let x = scrollX + 500;
+    let x = scrollX + 300;
     if (x > 0) {
       x = 0;
     }
@@ -21,7 +21,7 @@ function Slider({ Card, Title }) {
   }
 
   function RightArrow() {
-    let x = scrollX - 500;
+    let x = scrollX - 300;
     let list = Card.length * 280;
     if (window.innerWidth - list > x) {
       x = window.innerWidth - list;

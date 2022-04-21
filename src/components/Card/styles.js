@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 import { FaBed } from "react-icons/fa";
 import { FaBath } from "react-icons/fa";
+import { IoMdCar } from "react-icons/io";
 
 export const Container = styled.div`
   //width: 100%;
@@ -40,7 +41,7 @@ export const Container = styled.div`
         color: #0089ff;
 
         &:nth-child(2) {
-          margin-left: 20px;
+          margin:0px 18px;
         }
       }
     }
@@ -57,6 +58,13 @@ export const BathIcon = styled(FaBath)`
 export const RoomIcon = styled(FaBed)`
   width: 18px;
   height: 18px;
+  color: #0089ff;
+  margin-left: 8px;
+`;
+
+export const GarageIcon = styled(IoMdCar)`
+  width: 25px;
+  height: 25px;
   color: #0089ff;
   margin-left: 8px;
 `;

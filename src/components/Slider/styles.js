@@ -23,11 +23,11 @@ export const Row = styled.div`
   overflow-x: hidden;
   transition: all ease 0.5s;
 
- /*  @media (max-width: 1120px) {
+  @media (max-width: 820px) {
     -webkit-overflow-scrolling: touch;
     overflow-x: scroll;
     scroll-behavior: smooth;
-  } */
+  }
 `;
 
 export const BoxButton = styled.div`

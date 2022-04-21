@@ -1,6 +1,6 @@
-import { Container, BathIcon, RoomIcon } from "./styles";
+import { Container, BathIcon, GarageIcon,RoomIcon } from "./styles";
 
-export default function Card({ Title, Url, Price, Bath, Room}) {
+export default function Card({ Title, Url, Price, Bath, Room, Garage}) {
   return (
     <Container >
       <img src={Url} />
@@ -10,6 +10,7 @@ export default function Card({ Title, Url, Price, Bath, Room}) {
         <div>
           <span>{Room}<RoomIcon/></span>
           <span>{Bath}<BathIcon/></span>
+          <span>{Garage}<GarageIcon/></span>
         </div>
       </div>
     </Container>
