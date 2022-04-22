@@ -11,5 +11,6 @@ export const Container = styled.div`
 
     a{
         color: red;
+        font-size: 1.2rem;
     }
 `;
