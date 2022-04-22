@@ -3,7 +3,7 @@ import axios from "axios";
 
 import { Container } from "../styles/pages/index";
 import Card from "../components/Card";
-import Slider from "../Components/Slider";
+import Slider from "../components/Slider";
 
 export default function Home({ propertyForSale, propertyForRent }) {
   return (
