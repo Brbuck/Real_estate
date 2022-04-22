@@ -1,5 +1,4 @@
 import Link from "next/link";
-import axios from "axios";
 
 import { Container } from "../styles/pages/index";
 import Card from "../components/Card";
@@ -55,13 +54,16 @@ export default function Home({ propertyForSale, propertyForRent }) {
 }
 
 export async function getStaticProps() {
-  const propertyForSale = await axios.get("http://localhost:5000/sale");
-  const propertyForRent = await axios.get("http://localhost:5000/rent");
+  const propertyForSale = await fetch("http://localhost:5000/sale");
+  const propertyForRent = await fetch("http://localhost:5000/rent");
+
+  const dataForSale = await propertyForSale.json();
+  const dataForRent = await propertyForRent.json();
 
   return {
     props: {
-      propertyForSale: propertyForSale.data,
-      propertyForRent: propertyForRent.data,
+      propertyForSale: dataForSale,
+      propertyForRent: dataForRent,
     },
     revalidate: 100,
   };

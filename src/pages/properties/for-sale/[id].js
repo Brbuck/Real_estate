@@ -1,5 +1,4 @@
 import { useState } from "react";
-import axios from "axios";
 import { useRouter } from "next/router";
 
 import Swiper from "../../../components/Swiper";
@@ -94,8 +93,8 @@ export default function Sale({ id }) {
 
 export async function getStaticPaths() {
   // Call an external API endpoint to get posts
-  const res = await axios.get("http://localhost:5000/sale");
-  const data = await res.data;
+  const res = await fetch("http://localhost:5000/sale");
+  const data = await res.json();
 
   // Get the paths we want to pre-render based on posts
   const paths = data.map((item) => ({
@@ -110,12 +109,13 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   // params contains the post `id`.
   // If the route is like /posts/1, then params.id is 1
-  const res = await axios.get(`http://localhost:5000/sale/${params.id}`);
+  const res = await fetch(`http://localhost:5000/sale/${params.id}`);
+  const data = await res.json();
 
   // Pass post data to the page via props
   return {
     props: {
-      id: res.data,
+      id: data,
     },
     revalidate: 100,
   };
