@@ -124,6 +124,47 @@
       }
     },
     {
+      "id": 3,
+      "purpose": "for-sale",
+      "price": 1300000,
+      "description": "Tierra del Sol offers a beautiful collection of single-family homes at a very affordable price, with size and layout options suitable for any family.Tierra del Sol's ideal location in the growing Four Corners area, southwest of Orlando, will provide fast access to the I-4 job corridor, as well as easy access to theme parks. Residents will enjoy the Amenities community's and proximity to schools, shops, restaurants, entertainment venues and more. ",
+      "area": 370,
+      "bedrooms": 6,
+      "baths": 5,
+      "garage": 3,
+      "address": "5220 Tuscany Ln, Davenport, FL 33897, EUA",
+      "coverphoto": "https://cdn.pixabay.com/photo/2014/07/10/17/18/large-home-389271_1280.jpg",
+      "photos": [
+        {
+          "id": 125,
+          "url": "https://cdn.pixabay.com/photo/2014/07/10/17/18/large-home-389271_1280.jpg"
+        },
+        {
+          "id": 126,
+          "url": "https://cdn.pixabay.com/photo/2017/03/28/12/10/chairs-2181947_1280.jpg"
+        },
+        {
+          "id": 127,
+          "url": "https://cdn.pixabay.com/photo/2016/04/18/08/50/kitchen-1336160_1280.jpg"
+        },
+        {
+          "id": 128,
+          "url": "https://cdn.pixabay.com/photo/2014/07/10/17/17/bedroom-389254_1280.jpg"
+        },
+        {
+          "id": 129,
+          "url": "https://cdn.pixabay.com/photo/2016/04/18/08/51/bathroom-1336165_1280.jpg"
+        }
+      ],
+      "agency": {
+        "name": "Manzel Kareem Real Estate",
+        "logo": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/27681814/9c7b944fa4344803a4cc318dd6160c78",
+        "mobile": "+971585768009",
+        "phone": "+97143433992",
+        "whatsapp": "971585768009"
+      }
+    },
+    {
       "id": 4,
       "purpose": "for-sale",
       "price": 435000,
@@ -539,6 +580,58 @@
         { "id": 167, "amenitie": "Carpeted Floors" },
         { "id": 168, "amenitie": "Refrigerator" },
         { "id": 169, "amenitie": "Air Conditioning" }
+      ]
+    },
+    {
+      "id": 4000,
+      "purpose": "for-rent",
+      "price": 3700,
+      "description": "Spectacular 4 Beds 2 Baths Penthouse unit in the heart of Back Bay. This unit offers large layout living room, modern kitchen, granite countertop, stainless appliancess. The most wonderful features of the unit is the private roof deck and sunroom with an expansive view of boston. Good size bedrooms, closet space, hardwood floors, Hight ceiling. Laundry in unit, A/C, gas heat.",
+      "area": 280,
+      "bedrooms": 4,
+      "baths": 2,
+      "garage": 2,
+      "address": " Southern Mattapan, Boston, MA 02126, EUA",
+      "coverphoto": "https://cdn.pixabay.com/photo/2015/12/07/04/12/house-1080268_1280.jpg",
+      "photos": [
+        {
+          "id": 155,
+          "url": "https://cdn.pixabay.com/photo/2015/12/07/04/12/house-1080268_1280.jpg"
+        },
+        {
+          "id": 156,
+          "url": "https://cdn.pixabay.com/photo/2016/11/18/15/54/apartment-1835482_1280.jpg"
+        },
+        {
+          "id": 157,
+          "url": "https://cdn.pixabay.com/photo/2016/05/26/04/17/home-1416381_1280.jpg"
+        },
+        {
+          "id": 158,
+          "url": "https://cdn.pixabay.com/photo/2014/08/11/21/40/bedroom-416062_1280.jpg"
+        },
+        {
+          "id": 159,
+          "url": "https://cdn.pixabay.com/photo/2017/02/24/12/23/bathroom-2094716_1280.jpg"
+        }
+      ],
+      "agency": {
+        "name": "Giulietta Ulloa",
+        "logo": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/27681814/9c7b944fa4344803a4cc318dd6160c78",
+        "mobile": "+971585768009",
+        "phone": "+305-710-6620",
+        "whatsapp": "971585768009"
+      },
+      "amenities": [
+        {
+          "id": 120,
+          "amenitie": "Balcony"
+        },
+        { "id": 111, "amenitie": "Dishwasher" },
+        { "id": 122, "amenitie": "Washer / Dryer" },
+        { "id": 123, "amenitie": "Deck" },
+        { "id": 124, "amenitie": "Refrigerator" },
+        { "id": 125, "amenitie": "Air Conditioning" }
       ]
     },
     {
